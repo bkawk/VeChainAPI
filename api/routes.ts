@@ -6,7 +6,7 @@ import { FundsController } from './controllers/funds';
 const _routes: Array<[string, Router]> = [
     ['/v1', IndexController],
     ['/v1/ping', PingController],
-    ['/v1/funds', FundsController],
+    ['/v1/request-funds', FundsController],
 ];
 
 export const routes = (app: Application) => {

@@ -12,7 +12,7 @@
     "devtest": "jest --watch",
     "test": "jest",
     "build": "tsc",
-    "start": "node ./dist/app.js",
+    "start": "node ./dist/index.js",
     "docker": "docker-compose up --build"
   },
   "devDependencies": {
@@ -30,6 +30,10 @@
   },
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.3.0",
+    "@types/cors": "^2.8.9",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "tsc": "^1.20150623.0"
