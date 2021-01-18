@@ -1,6 +1,9 @@
 # VeChainAPI
 Simple web-facing API that accepts payment requests from a React front end, the payment request contains an amount and an address. The API, in turn, sends the request to AWS SQS to be processed by a secure lambda function that is listening to queue and not web facing.
 
+[![<ORG_NAME>](https://circleci.com/gh/bkawk/VeChainAPI.svg?style=svg)](<LINK>)
+
+
 ## TODO
 
 * Sanitise incoming data
