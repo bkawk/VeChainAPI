@@ -16,31 +16,31 @@ Simple web-facing API that accepts payment requests from a React front end, the 
 ## Install
 
 ```ssh
-yarn
+npm install
 ```
 
 ## Run Development
 
 ```ssh
-yarn dev
+npm run dev
 ```
 
 ## Watch Tests
 
 ```ssh
-yarn devtests
+npm run devtests
 ```
 
 ## Start
 
 ```ssh
-yarn start
+npm run start
 ```
 
 ## Docker
 
 ```ssh
-yarn docker
+npm run docker
 ```
 
 ## Lint
