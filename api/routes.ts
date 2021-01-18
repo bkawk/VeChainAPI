@@ -4,7 +4,8 @@ import { PingController } from './controllers/ping';
 import { FundsController } from './controllers/funds';
 
 const _routes: Array<[string, Router]> = [
-    ['/v1', IndexController],
+    ['/', IndexController],
+    ['/health', IndexController],
     ['/v1/ping', PingController],
     ['/v1/request-funds', FundsController],
 ];
