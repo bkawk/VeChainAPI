@@ -6,12 +6,13 @@ Simple web-facing API that accepts payment requests from a React front end, the 
 
 ## TODO
 
+* Add logging with pino
 * Sanitise incoming data
 * Configure CORS for front end only
 * Check all functions have try catch
-* Log all errors
 * Final lint
 * Configure CircleCI to push to ECR on success
+* Build out tests to get coverage
 
 ## Install
 
