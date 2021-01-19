@@ -70,6 +70,4 @@ tslint --project .
 * Alias the domain to the load balancer
 * Setup AWS Code Deploy linking it to GitHub
 
-
-
-
+![Network diagram](https://i.imgur.com/dNK55T8.png)
